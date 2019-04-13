@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp6"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        Loaded="Window_Loaded">
     <Grid>
-        
+        <ListBox x:Name="lbxTeams" HorizontalAlignment="Left" Height="281" Margin="10,77,0,0" VerticalAlignment="Top" Width="271" SelectionChanged="LbxTeams_SelectionChanged"/>
+        <ListBox x:Name="lbxPlayers" HorizontalAlignment="Left" Height="281" Margin="308,77,0,0" VerticalAlignment="Top" Width="285"/>
+        <Image x:Name="imgTeam" HorizontalAlignment="Left" Height="100" Margin="633,99,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.804,0.303"/>
+
     </Grid>
 </Window>
